@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 20px;
+  padding: 0;
+}
+
+h4 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0px;
+  font-weight: bolder;
+}
+p{
+  font-weight: 600;
+  line-height: 22px;
+  margin-bottom: 40px;
+}
+ul li {
+    font-weight: 600;
+}
+
+.connecting1 {
+  display: flex;
+  gap: 5vw;
+  justify-content: center;
+  width: 100%;
+}
+
+.connecting1 .conright{
+  width: 40%;
+}
+
+.connecting1 .conleft{
+  width: 40%;
+  display: flex;
+  justify-content: end;
+}
+
+.LearnMore {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  background-color: black;
+}
+
+.SignUp {
+  text-decoration: none;
+  padding: 8px;
+  color: black;
+  border: 2px solid black;
+  font-weight: 600;
+}
+
+.empowering {
+  margin: 10vh auto;
+  width: 30%;
+  text-align: center;
+}
+
+.story{
+    display: flex;
+    gap: 10vw;
+    justify-content: center;
+}
+
+.story img{
+    height: 40vh;
+    width: auto;
+}
+.story div{
+    width: 35%;
+}
+
+.meetourteam {
+    width: 80%;
+    margin: 10vh auto;
+    
+}
+
+.profiles{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.profiles .card img{
+    height: 30vh;
+}
+
+.card p {
+    margin: 0;
+    font-weight: 500;
+    font-size: small;
+}
+.card .name{
+    font-weight: 600;
+}
+
+.card div svg{
+    height: 20px;
+    margin: 0px;
+}
+.card div {
+    padding: 10px 0px;
+}
